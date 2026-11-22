@@ -29,3 +29,7 @@ main{max-width:1140px;display:grid;grid-template-columns:220px minmax(0,1fr);gap
 .profile .portrait{width:140px;height:140px}
 @media(max-width:900px){.profile .portrait{width:130px;height:130px}}
 @media(max-width:650px){.profile .portrait{width:90px;height:90px}}
+
+/* Consistent contact order, spacing, and mobile alignment. */
+.profile .email,.profile .github,.profile .scholar{margin-top:12px}
+@media(max-width:650px){.profile .email,.profile .github,.profile .scholar{grid-column:2;margin-top:10px}.profile .portrait{grid-row:1/7}}
