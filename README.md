@@ -74,3 +74,15 @@ Before publishing, search for all placeholders and check links, images, mobile l
 ### License
 
 The code and generic SVG assets use the [MIT License](LICENSE). Check permissions for any photos, institution logos, papers, or other materials you add.
+
+## News、论文和 Scholar 模板 / News, publications, and Scholar templates
+
+- Google Scholar：将 `YOUR_SCHOLAR_ID` 替换为个人主页 URL 中的 user 参数。
+- News：复制 `.news-list` 中的 `li`，填写月份年份、标签、动态及链接，按时间倒序排列。
+- Publications：复制 `.publication`，替换标题、作者（自己的名字加粗）、会议或期刊、年份、发表状态、摘要和 Project / Paper / Code 链接。删除没有资源的按钮。
+- 将 `assets/images/publication.svg` 换为论文概览图，更新路径、alt 和原始宽高。示例均为占位内容，上线前删除提示并替换。
+
+- Google Scholar: replace `YOUR_SCHOLAR_ID` with the user parameter from your profile URL.
+- News: duplicate a `li` inside `.news-list`; update the month/year, tag, announcement, and links. Keep newest entries first.
+- Publications: duplicate `.publication`; fill in the title, authors (bold your name), venue, year, status, summary, and Project / Paper / Code links. Remove unavailable resource buttons.
+- Replace `assets/images/publication.svg` with your paper overview figure and update its path, alt text, and original dimensions. Remove example notices and replace all placeholders before publishing.
