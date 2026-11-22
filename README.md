@@ -4,11 +4,11 @@
 
 Desktop / 桌面端
 
-![Desktop preview](assets/images/preview-desktop.png)
+![Desktop preview](assets/images/preview-desktop-97a1d019.png)
 
 Mobile / 手机端
 
-<img src="assets/images/preview-mobile.png" alt="Mobile preview" width="320">
+<img src="assets/images/preview-mobile-c757c00d.png" alt="Mobile preview" width="320">
 
 
 [中文](#中文) | [English](#english)
