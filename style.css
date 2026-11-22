@@ -24,3 +24,8 @@ main{max-width:1140px;display:grid;grid-template-columns:220px minmax(0,1fr);gap
 .publication{display:grid;grid-template-columns:220px minmax(0,1fr);gap:24px;margin:22px 0}.publication-image{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:8px}.publication h3{font-size:19px;line-height:1.45;overflow-wrap:anywhere}.publication p{margin:9px 0;font-size:14px}.publication-authors{color:var(--muted)}.publication-venue{font-weight:650}.publication-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.publication-links a{border:1px solid #d5dce3;border-radius:4px;padding:3px 12px;background:#f8fafc;font-size:14px}
 @media(max-width:900px){.publication{grid-template-columns:1fr}.publication-image{max-width:360px}}
 @media(max-width:650px){.profile .scholar{grid-column:1/-1}.news-list li{grid-template-columns:1fr;gap:3px}}
+
+/* Compact profile portrait. */
+.profile .portrait{width:140px;height:140px}
+@media(max-width:900px){.profile .portrait{width:130px;height:130px}}
+@media(max-width:650px){.profile .portrait{width:90px;height:90px}}

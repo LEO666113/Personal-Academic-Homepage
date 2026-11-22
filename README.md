@@ -1,5 +1,16 @@
 # Academic Homepage Template
 
+## 页面预览 / Preview
+
+Desktop / 桌面端
+
+![Desktop preview](assets/images/preview-desktop.png)
+
+Mobile / 手机端
+
+<img src="assets/images/preview-mobile.png" alt="Mobile preview" width="320">
+
+
 [中文](#中文) | [English](#english)
 
 ## 中文
