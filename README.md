@@ -1,5 +1,9 @@
 # Academic Homepage Template
 
+[中文](#中文) | [English](#english)
+
+## 中文
+
 通用学术个人主页模板，HTML + CSS + 原生 JavaScript，无需安装依赖或构建。所有人物与机构内容均为占位示例，图片为通用 SVG。
 
 ## 快速开始
@@ -33,3 +37,40 @@ python3 -m http.server 8000 --bind 127.0.0.1
 代码与通用 SVG 使用 MIT License。自行添加的照片、校徽、论文等素材需自行确认授权。
 
 身份占位为 `Undergraduate/Master/PhD`，请按实际阶段保留一项。第二段教育经历为硕士经历，需填写硕士院校、专业与起止日期。
+
+---
+
+## English
+
+A reusable academic homepage template built with HTML, CSS, and vanilla JavaScript. No dependencies or build step are required. All personal and institutional content is placeholder text. Images are generic SVG assets.
+
+### Quick start
+
+Download this repository and open `index.html` directly, or run:
+
+```sh
+python3 -m http.server 8000 --bind 127.0.0.1
+```
+
+Visit http://127.0.0.1:8000 in your browser.
+
+### Customization
+
+- `index.html`: replace Your Name, role, department, institutions, education and research experience, dates, About, News, Publications, and the footer's last-updated date.
+- The role placeholder is `Undergraduate/Master/PhD`; keep the stage that applies to you. The second education entry is a master's degree: fill in your institution, program, and dates.
+- Replace `your-username`, `you@example.com`, and `example.com` with your GitHub username, email address, and institutional links.
+- `assets/images/avatar.svg`: replace the avatar and update its HTML path, alt text, width, and height.
+- `assets/images/institution.svg`: replace the institution logo and update its alt text.
+- `style.css`: customize colors, fonts, layout, and responsive styles.
+- `script.js`: updates the copyright year and highlights the current navigation section.
+- To add a CV or papers, create `assets/files`, add your documents, and link to them using relative paths.
+
+### Deployment
+
+Upload the root files and `assets` directory to your own public repository. In GitHub **Settings → Pages**, select the publishing branch and root directory. Relative paths support project sites. Keep `.nojekyll`.
+
+Before publishing, search for all placeholders and check links, images, mobile layout, and keyboard navigation. Do not commit secrets or private files.
+
+### License
+
+The code and generic SVG assets use the [MIT License](LICENSE). Check permissions for any photos, institution logos, papers, or other materials you add.
