@@ -17,3 +17,10 @@ main{max-width:1140px;display:grid;grid-template-columns:220px minmax(0,1fr);gap
 .profile .github,.profile .email{display:flex;align-items:center;gap:9px;font-size:14px;font-weight:600;line-height:1.75}.profile .github svg,.profile .email svg{display:block;width:18px;height:18px;flex-shrink:0}
 
 .research-entry p{margin:8px 0 0;font-size:15px}.research-entry h3{font-size:18px}
+
+/* Reusable scholarly links, news rows, and publication cards. */
+.profile .scholar{display:flex;align-items:center;gap:9px;margin-top:12px;font-size:14px;font-weight:600}.scholar svg{width:18px;height:18px;flex-shrink:0}
+.template-note{color:var(--muted);font-size:13px;margin:0 0 18px}.news-list{list-style:none;padding:0;margin:0}.news-list li{display:grid;grid-template-columns:110px minmax(0,1fr);gap:14px;margin:12px 0}.news-tag{display:inline-block;background:#eef1f4;color:#526071;border-radius:4px;padding:1px 9px;margin-right:8px;font-size:13px;font-weight:600}.news-list a{text-decoration:underline;text-underline-offset:3px}
+.publication{display:grid;grid-template-columns:220px minmax(0,1fr);gap:24px;margin:22px 0}.publication-image{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:8px}.publication h3{font-size:19px;line-height:1.45;overflow-wrap:anywhere}.publication p{margin:9px 0;font-size:14px}.publication-authors{color:var(--muted)}.publication-venue{font-weight:650}.publication-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.publication-links a{border:1px solid #d5dce3;border-radius:4px;padding:3px 12px;background:#f8fafc;font-size:14px}
+@media(max-width:900px){.publication{grid-template-columns:1fr}.publication-image{max-width:360px}}
+@media(max-width:650px){.profile .scholar{grid-column:1/-1}.news-list li{grid-template-columns:1fr;gap:3px}}
